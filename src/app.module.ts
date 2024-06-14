@@ -8,7 +8,7 @@ import { NewsModule } from './news/news.module'
   imports: [
     RedisModule.forRoot({
       type: 'single',
-      url: 'redis://localhost:6379',
+      url: 'redis://redis:6379',
     }),
     NewsModule,
   ],

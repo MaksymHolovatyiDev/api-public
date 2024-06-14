@@ -14,7 +14,7 @@ import { NewService } from './news.service'
         name: 'NEWS_SERVICE',
         transport: Transport.REDIS,
         options: {
-          host: 'localhost',
+          host: 'redis',
           port: 6379,
         },
       },
